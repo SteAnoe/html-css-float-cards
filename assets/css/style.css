@@ -1,0 +1,24 @@
+
+
+.card1{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: pink;
+}
+
+
+
+.card2{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: blue;
+}
+
+.card3{
+    float: right;
+    width: 20%;
+    height: 500px;
+    background-color: green;
+}
