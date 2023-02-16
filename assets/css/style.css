@@ -1,3 +1,4 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
@@ -10,20 +11,18 @@
     display: table;
 }
 
+/* dimensionamento main */
 .container{
     width: 70%;
     margin: auto;
 }
 
+/* font */
 *{
     font-family: 'Fredoka One', cursive;
 }
 
-img{
-    float: left;
-    width: 100px;
-}
-
+/* titolo */
 .titolo{
     text-align: center;
 }
@@ -34,15 +33,18 @@ h1{
     margin: 5% auto;
 }
 
+/* spaziatura p */
 .testo{
     margin-bottom: 5%;
 }
 
+/* cards */
 .card1{
     float: left;
     width: 30%;
     background-color: black;
     color: white;
+    box-shadow: 0px 0px 10px 8px gray;
 }
 
 .card2{
@@ -52,6 +54,7 @@ h1{
     color: white;
     margin-left: 5%;
     margin-right: 5%;
+    box-shadow: 0px 0px 10px 8px gray;
 }
 
 .card3{
@@ -59,21 +62,27 @@ h1{
     width: 30%;
     background-color: black;
     color: white;
+    box-shadow: 0px 0px 10px 8px gray;
 }
 
+/* img */
+img{
+    float: left;
+    width: 100px;
+}
+
+/* testo cards */
 .etichetta{
     padding-top: 3%;
     padding-left: 30%;
 }
 
-.separatore{
-    margin: 10% auto;
-}
-
+/* email */
 a{
     text-decoration: none;
 }
 
+/* spaziatura orizz cards */
 .sez-oriz1{
     margin-bottom: 3%;
 }
