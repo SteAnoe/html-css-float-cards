@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
 .container{
     width: 70%;
     margin: auto;
@@ -18,10 +24,18 @@ img{
     width: 100px;
 }
 
-.clearfix::after{
-    content: '';
-    clear: both;
-    display: table;
+.titolo{
+    text-align: center;
+}
+
+h1{
+    color: palevioletred;
+    font-size: 300%;
+    margin: 5% auto;
+}
+
+.testo{
+    margin-bottom: 5%;
 }
 
 .card1{
@@ -50,4 +64,16 @@ img{
 .etichetta{
     padding-top: 3%;
     padding-left: 30%;
+}
+
+.separatore{
+    margin: 10% auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sez-oriz1{
+    margin-bottom: 3%;
 }
